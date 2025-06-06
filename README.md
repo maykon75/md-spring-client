@@ -1,7 +1,7 @@
 # md-spring-client
 
 ## Description
-Simple Spring Boot CRUD application that uses Feign Client to communicate with the md-spring-db service.
+A simple CRUD application built with Spring Boot following the hexagonal architecture pattern, using Feign Client to interact with the external md-spring-db service.
 
 ## Technologies
 - Java 21
