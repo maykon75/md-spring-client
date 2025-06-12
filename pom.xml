@@ -19,6 +19,7 @@
 		<springdoc-openapi-starter-webmvc-ui.version>2.8.8</springdoc-openapi-starter-webmvc-ui.version>
 		<lombok.version>1.18.32</lombok.version>
 		<mapstruct.version>1.6.2</mapstruct.version>
+		<spring-cloud-starter-openfeign.version>4.3.0</spring-cloud-starter-openfeign.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -34,7 +35,7 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
-			<version>4.3.0</version>
+			<version>${spring-cloud-starter-openfeign.version}</version>
 		</dependency>
 		<!-- FEIGN CLIENT -->
 
